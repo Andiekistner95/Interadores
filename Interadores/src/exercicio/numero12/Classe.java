@@ -1,0 +1,30 @@
+/*
+ * Imprimir uma lista semelhante a lista abaixo:
+		1_10
+		2_9
+		3_8
+		4_7
+		5_6
+		6_5
+		7_4
+		8_3
+		9_2
+		10_1
+
+ */
+package exercicio.numero12;
+
+public class Classe {
+	public static void main(String[] args) {
+
+		int inicio = 1;
+		int fim = 10;
+		int inicio2 = fim;
+
+		for (; inicio <= fim; inicio++) {
+
+			System.out.println(inicio + "_" + inicio2);
+			inicio2--;
+		}
+	}
+}
